@@ -333,7 +333,7 @@ function password_default() {
 
 ISP=$(wget -qO- ipinfo.io/org)
 TIMES=$(date +'%Y-%m-%d')
-URL="https://api.telegram.org/bot6293396608:AAFR9MI4hz8Jfe7AVITf1ANVxOVUhe_lZmc/sendMessage"
+URL=""
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
