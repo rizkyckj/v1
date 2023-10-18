@@ -27,7 +27,7 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  Welcome To RVPN Project Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${green}FVstore ${NC} ${green}ZheeVPN ${NC}"
+echo -e "         Auther : ${green} RVPN STORES ${NC} ${green} RVPN ${NC}"
 echo -e "       Â© Recode By RVPN Project ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
