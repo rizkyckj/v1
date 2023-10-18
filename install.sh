@@ -3,7 +3,7 @@ rm -f install.sh
 # ===================
 export green='\033[0;32m'
 export NC='\033[0m'
-rm -f /root/fvstore.sh
+rm -f /root/main.sh
 clear
 echo ""
 echo ""
