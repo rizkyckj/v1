@@ -1,6 +1,7 @@
 #!/bin/bash
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
+REPO="https://raw.githubusercontent.com/rizkyckj/v1/main/"
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 clear
 fun_bar() {
