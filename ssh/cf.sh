@@ -7,10 +7,10 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y >/dev/null 2>&1
 read -rp "Sub Domain (Contoh: fv12): " -e sub
-DOMAIN=vpn-prem.biz.id
-SUB_DOMAIN=${sub}.vpn-prem.biz.id
-CF_ID=padliapandi459@gmail.com
-CF_KEY=1a700ef4a22e642f0ea8d43420bb0b1237589
+DOMAIN=vip-premium.cfd
+SUB_DOMAIN=${sub}.vip-premium.cfd
+CF_ID=rizkyckj7@gmail.com
+CF_KEY=7571c116b59054bd73d885786d323182f3325
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
